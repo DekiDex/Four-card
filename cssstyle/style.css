@@ -1,0 +1,176 @@
+
+/* Genneral styles */
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+body p {
+	color: hsl(229, 6%, 66%);
+}
+
+body h1 {
+	color: hsl(234, 12%, 34%);
+}
+
+header {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	font-weight: 200;	
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.container {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+	border-radius: .5rem;
+}
+
+
+/* Box border style */
+.red {
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.cyan {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.orange {
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.blue {
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+
+/* Mobile devices */
+@media screen and (min-width: 280px) {
+
+
+.main-one {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3.5rem;
+}
+
+header {
+	width: 330px;
+	margin: 3rem auto 0 auto;
+}
+
+.container {
+	display: block;
+	width: 330px; 
+	margin-top: 2.5rem;	
+}
+
+.desktop-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Font sizes for mobile and positioning */
+
+header h1 {
+	font-size: 160%;
+	margin-bottom: 1rem;
+}
+
+header p {
+	font-size: 100%;
+	margin-top: unset;
+}
+
+.container h1 {
+	font-size: 140%;
+	padding-left: 1.7rem;
+}
+
+.container p {
+	font-size: 85%;
+	line-height: 150%;
+	padding-left: 1.7rem;
+}
+
+.container img {
+	float: right;
+	margin: 1rem 2rem 2rem 0;
+}
+
+}
+
+/* For desktop */
+@media screen and (min-width: 1000px) {
+    .main-one {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	margin-bottom: 3rem;
+    	vertical-align: middle;
+    }
+
+    header {
+    	width: 500px;
+    	margin: 3.5rem auto 0 auto;
+    }
+
+    .container {
+    	width: 350px;
+    }
+
+.container img {
+	float: right;
+	margin: 1rem 2rem 2rem 0;
+}
+
+.desktop-flex {
+	display: flex;
+	flex-direction: column;
+	margin: 0 2rem 0 2rem;
+}
+
+.red {
+	margin-top: unset;
+}
+
+.blue {
+	margin-top: unset;
+}
+
+.cyan {
+	margin-top: unset;
+}
+
+/* Font sizes for mobile and positioning */
+    header h1 {
+	font-size: 215%;
+}
+
+header p {
+	font-size: 100%;
+}
+
+.container h1 {
+	font-size: 140%;
+	padding-left: 1.7rem;
+}
+
+.container p {
+	font-size: 85%;
+	line-height: 150%;
+	padding-right: 1.7rem;
+}
+
+}
+
